@@ -14,7 +14,7 @@ for phi in val:
     x = A * np.sin(2 * np.pi * f * n * ts + phi)
     plt.plot(n * ts, x)
 
-#plt.savefig('grafic_ex2Faze.pdf')
+plt.savefig('grafic_ex2Faze.pdf')
 
 x = A * np.sin(2 * np.pi * f * n * ts + np.pi/2)
 z = np.random.normal(0, 1, len(x))
